@@ -1231,7 +1231,7 @@ func (a Shards) FieldKeysByMeasurement(name []byte) []string {
 		}
 		return mf.FieldKeys()
 	}
-	
+
 	all := make([][]string, 0, len(a))
 	for _, shard := range a {
 		mf := shard.MeasurementFields(name)
