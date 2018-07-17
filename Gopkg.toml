@@ -69,3 +69,7 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[[constraint]]
+  name = "github.com/shawnsmithdev/zermelo"
+  version = "0.1.0"

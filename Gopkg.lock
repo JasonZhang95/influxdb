@@ -251,6 +251,12 @@
   revision = "101a6d2f8b52abfc409ac188958e7e7be0116331"
 
 [[projects]]
+  name = "github.com/shawnsmithdev/zermelo"
+  packages = ["zuint64"]
+  revision = "89df8d5cfb2ca4224eed015dddceb720b23e0719"
+  version = "v0.1"
+
+[[projects]]
   name = "github.com/tinylib/msgp"
   packages = ["msgp"]
   revision = "b2b6a672cf1e5b90748f79b8b81fc8c5cf0571a1"
@@ -407,6 +413,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d895b14175ef4f2cad07769402d5920dc8284d07d90f843d1ec6f45f633548e9"
+  inputs-digest = "75a4417c46dbad6ac3d75f4d127cef96656d93503f22407bf293bc511d9cba0e"
   solver-name = "gps-cdcl"
   solver-version = 1

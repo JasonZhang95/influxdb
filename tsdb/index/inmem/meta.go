@@ -13,6 +13,7 @@ import (
 	"github.com/influxdata/influxdb/query"
 	"github.com/influxdata/influxdb/tsdb"
 	"github.com/influxdata/influxql"
+	"github.com/shawnsmithdev/zermelo/zuint64"
 )
 
 // Measurement represents a collection of time series in a database. It also
@@ -1181,7 +1182,7 @@ func (e *tagKeyValueEntry) ids() seriesIDs {
 	for id := range e.m {
 		a = append(a, id)
 	}
-	sort.Sort(a)
+	zuint64.Sort(a)
 
 	e.a = a
 	return e.a
